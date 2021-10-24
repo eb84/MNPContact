@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MNPContactAPI.Models
 {
-    public partial class Contact
+    public partial class Contact : ICloneable
     {
         [Key]
         [Column(Order = 0)]
@@ -64,6 +64,11 @@ namespace MNPContactAPI.Models
 
                 return ValidationResult.Success;
             }
+        }
+
+        public object Clone()
+        {
+            return this.MemberwiseClone();
         }
     }
 }

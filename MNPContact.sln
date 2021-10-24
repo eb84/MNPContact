@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MNPContact", "MNPContact.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MNPContactAPI", "MNPContactAPI\MNPContactAPI.csproj", "{C9BE39DF-D8F7-4F44-AB1D-95194795E14B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MNPContactAPI.Tests", "MNPContactAPI.Tests\MNPContactAPI.Tests.csproj", "{0C853B61-69A0-4D22-A977-9AAED539AA5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C9BE39DF-D8F7-4F44-AB1D-95194795E14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9BE39DF-D8F7-4F44-AB1D-95194795E14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9BE39DF-D8F7-4F44-AB1D-95194795E14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C853B61-69A0-4D22-A977-9AAED539AA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C853B61-69A0-4D22-A977-9AAED539AA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C853B61-69A0-4D22-A977-9AAED539AA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C853B61-69A0-4D22-A977-9AAED539AA5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
